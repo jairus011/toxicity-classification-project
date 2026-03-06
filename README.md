@@ -1,11 +1,11 @@
 #Toxic Compound Classification Using Machine Learning
-##Project Overview
+##Project Overview:
 This project aims to classify chemical compounds into Toxic and Non-Toxic categories using machine learning techniques. The dataset contains molecular descriptors used as features for prediction.
 
-##Problem Statement
+##Problem Statement:
 The dataset contains over 1000 features. The objective is to build a machine learning model that can accurately predict compound toxicity.
 
-##Methodology
+##Methodology:
 The following steps were performed:
 Data loading using Pandas
 Exploratory Data Analysis (EDA)
@@ -18,7 +18,7 @@ Model training using Random Forest Classifier
 Cross-validation
 Model evaluation
 
-##Model Used
+##Model Used:
 Random Forest Classifier (Ensemble Learning Method)
 Evaluation Metrics
 Accuracy Score
@@ -28,7 +28,7 @@ Recall
 F1-Score
 Cross Validation Accuracy
 
-##Tools & Libraries
+##Tools & Libraries:
 Python
 Pandas
 NumPy
