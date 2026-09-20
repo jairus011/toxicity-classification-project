@@ -1,38 +1,65 @@
-#Toxic Compound Classification Using Machine Learning
+# Toxic Compound Classification Using Machine Learning
 
-##Project Overview:
-This project aims to classify chemical compounds into Toxic and Non-Toxic categories using machine learning techniques. The dataset contains molecular descriptors used as features for prediction.
+A learning-focused machine-learning project for classifying chemical compounds as **toxic** or **non-toxic** from high-dimensional molecular descriptor data.
 
-##Problem Statement:
-The dataset contains over 1000 features. The objective is to build a machine learning model that can accurately predict compound toxicity.
+## Project goal
 
-##Methodology:
-The following steps were performed:
-Data loading using Pandas
-Exploratory Data Analysis (EDA)
-Handling missing values
-Encoding the target variable
-Feature scaling
-Feature selection using statistical methods
-Train-test split
-Model training using Random Forest Classifier
-Cross-validation
-Model evaluation
+The dataset contains more than 1,000 predictor features. The project explores a practical classification workflow:
 
-##Model Used:
-Random Forest Classifier (Ensemble Learning Method)
-Evaluation Metrics
-Accuracy Score
-Confusion Matrix
-Precision
-Recall
-F1-Score
-Cross Validation Accuracy
+- load and inspect the data
+- handle missing values
+- encode the target
+- scale/select features
+- create a train/test split
+- train a Random Forest classifier
+- evaluate classification performance
+- use cross-validation as an additional stability check
 
-##Tools & Libraries:
-Python
-Pandas
-NumPy
-Scikit-learn
-Matplotlib
-Seaborn
+## Repository contents
+
+```text
+toxicity-classification-project/
+├── Untitled6.ipynb
+├── data (1).csv
+├── PROJECT_STATUS.md
+└── README.md
+```
+
+## Model
+
+The notebook uses a **Random Forest Classifier**.
+
+Evaluation in the notebook includes classification-oriented metrics such as accuracy, precision, recall, F1-score, confusion matrix, and cross-validation results.
+
+This README intentionally does not publish metric values that have not been separately verified during the portfolio cleanup.
+
+## Tools
+
+Python · Pandas · NumPy · Scikit-learn · Matplotlib · Seaborn · Jupyter Notebook
+
+## Run
+
+Open `Untitled6.ipynb` in Jupyter or VS Code and run the notebook from top to bottom with the CSV in the repository root.
+
+## Deployment
+
+No deployment is required for the current version. This repository is a modelling/analysis exercise rather than an application.
+
+A web app would only be worth adding after the input schema, trained artifact, inference pipeline, and evaluation are cleaned into reproducible modules.
+
+## API integration
+
+None.
+
+## Portfolio role
+
+This is an **older learning project** and should remain unpinned while stronger banking, fraud, credit-risk, and deployed projects represent the main portfolio.
+
+## Next improvements
+
+- rename notebook and dataset files to descriptive names
+- move the dataset into `data/`
+- create a reproducible training script/pipeline
+- verify and document final metrics
+- add requirements.txt
+- save the selected model only after the pipeline is reproducible
